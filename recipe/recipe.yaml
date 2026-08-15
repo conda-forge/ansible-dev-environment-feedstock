@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "26.4.0"
+  version: "26.8.0"
 
 package:
   name: ansible-dev-environment
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ansible-dev-environment/ansible_dev_environment-${{ version }}.tar.gz
-  sha256: 03f53108b7b81d8d31914f9bf49d1b06d291b6135e0a81675f2515e8ea70493e
+  sha256: e1a6f596db69b765726ce3e0622fce5298f87b43ad7ee0dbfdbc60c23ea0f304
 
 build:
   noarch: python
